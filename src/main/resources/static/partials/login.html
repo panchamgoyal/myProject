@@ -1,0 +1,20 @@
+<h1>Login</h1>
+
+<form>
+    <md-input-container>
+        <label>Username</label>
+        <input type="text" ng-model="login.username" required>
+    </md-input-container>
+
+    <md-input-container>
+        <label>Password</label>
+        <input type="Password" ng-model="login.password" required md-minlength="6" md-maxlength="12">
+    </md-input-container>
+    <p style="color:red" ng-show="invalidCreds">Invalid credentials. Password should be between 6 to 12.</p>
+
+    <div class="action-buttons">
+        <md-button ng-click="login()">
+            Login
+        </md-button>
+    </div>
+</form>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: awanim
+Build-Jdk: 11.0.3
+Implementation-Title: web-api
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.thevirtugroup.postitnote
+Implementation-Vendor: Pivotal Software, Inc.
+Created-By: Maven Integration for Eclipse
+
